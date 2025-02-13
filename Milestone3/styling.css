@@ -1,0 +1,78 @@
+
+/* Tag selector*/
+p {
+    text-align: center;
+}
+/* Class selector that modifies all img and video files*/
+.media{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ID selector*/
+#ordered_tag{
+    text-align: center;
+    /* Not disccused in class*/
+    list-style-position: inside;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right : auto;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    list-style-position: inside;
+}
+a {
+    color: blue;
+}
+form { 
+    width: 300px; 
+    margin: 0 auto; 
+}
+body{
+    background-color: bisque;
+}
+
+
+/* Responsive Design*/
+
+@media print {
+    .media{
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+
+    p{
+        color: green;
+    }
+}
+
+@media (min-width: 641px) and (max-width : 768px) {
+    body{
+        background-color: green;
+    }
+    
+}
+@media (min-width: 768px) and (max-width : 900px) {
+    body{
+        background-color:aquamarine;
+    }
+    
+}
+
+
+
+
+
+
+
+
